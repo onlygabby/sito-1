@@ -14,6 +14,7 @@
                 <li><a href="index.html">Home</a></li>
                                 <li><a href="pagine.html">Mappa del sito</a></li>
                                                 <li><a href="https://onlygabbyme.com/">onlygabbyme</a></li>
+                                                <p>hi</p>
 
         </ul>
     </nav>
