@@ -100,4 +100,21 @@ footer {
 footer p {
     margin: 0;
 }
+/* Resto del codice CSS rimane invariato */
+
+.icon {
+    font-size: 24px; /* Aumentiamo la dimensione a 24px */
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #003082;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
 
