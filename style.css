@@ -65,3 +65,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Resto del codice CSS rimane invariato */
+
+.logo-title-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #0055a5;
+}
+
+.logo {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.site-title {
+    color: #ffffff;
+    margin: 0;
+}
