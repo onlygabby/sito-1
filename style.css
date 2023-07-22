@@ -118,3 +118,38 @@ footer p {
     margin: 0;
 }
 
+/* Resto del codice CSS rimane invariato */
+
+.navbar {
+    background-color: #003082;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: #0055a5;
+}
+
+/* Resto del codice CSS rimane invariato */
