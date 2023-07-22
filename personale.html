@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Accedi &lsaquo; gabriel system &#8212; WordPress</title>
+</head>
+<body class="login no-js login-action-login wp-core-ui locale-it-it">
+    <script type="text/javascript">
+        document.body.className = document.body.className.replace('no-js','js');
+    </script>
+    <div id="login">
+        <h1><a href="https://it.altervista.org/">Powered by WordPress</a></h1>
+
+        <form name="loginform" id="loginform" action="https://gabrielsystem.altervista.org/wp-login.php" method="post">
+            <p>
+                <label for="user_login">Nome utente o indirizzo email</label>
+                <input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" />
+            </p>
+
+            <div class="user-pass-wrap">
+                <label for="user_pass">Password</label>
+                <div class="wp-pwd">
+                    <input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" />
+                    <button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Mostra password">
+                        <span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+
+            <p class="forgetmenot">
+                <input name="rememberme" type="checkbox" id="rememberme" value="forever" />
+                <label for="rememberme">Ricordami</label>
+            </p>
+
+            <p class="submit">
+                <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Accedi" />
+                <input type="hidden" name="redirect_to" value="https://gabrielsystem.altervista.org/?doing_wp_cron=1690047407.9199380874633789062500" />
+                <input type="hidden" name="testcookie" value="1" />
+            </p>
+        </form>
+
+        <p id="nav">
+            <a href="https://gabrielsystem.altervista.org/wp-login.php?action=lostpassword">Password dimenticata?</a>
+        </p>
+        <p id="backtoblog">
+            <a href="https://gabrielsystem.altervista.org/">&larr; Torna a gabriel system</a>
+        </p>
+    </div>
+
+    <script type='text/javascript' src='https://gabrielsystem.altervista.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://gabrielsystem.altervista.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+    <script type='text/javascript' id='password-strength-meter-js-extra'>
+        /* <![CDATA[ */
+        var pwsL10n = {"unknown":"Efficacia della password sconosciuta","short":"Molto debole","bad":"Debole","good":"Media","strong":"Forte","mismatch":"Mancata corrispondenza"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://gabrielsystem.altervista.org/wp-admin/js/password-strength-meter.min.js?ver=6.2.2' id='password-strength-meter-js'></script>
+</body>
+</html>
