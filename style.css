@@ -83,3 +83,20 @@ footer {
     color: #ffffff;
     margin: 0;
 }
+/* Resto del codice CSS rimane invariato */
+
+.icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #003082;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
