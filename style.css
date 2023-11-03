@@ -191,4 +191,19 @@ footer p {
     background-color: #0055a5;
 }
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Cambia il valore di right in percentuale */
+    height: 100%;
+    width: 30%; /* Usa una larghezza percentuale, ad esempio 30% */
+    background-color: #003082;
+    color: #ffffff;
+    transition: right 0.3s ease;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
 /* Resto del codice CSS rimane invariato */
